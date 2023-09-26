@@ -21,7 +21,8 @@ public class ScoreTrakker {
 
   //Michael helped us debug this 
     private void loadDataFile(String fileName) throws FileNotFoundException {
-		// !! Avas comment: The different way sadly had to be changed in part 2 
+		// Eva Comment: tried to do the try catch a different way :)
+    	//!! Avas comment: The different way sadly had to be changed in part 2 
     		//students.clear();
     		FileReader reader = new FileReader(fileName);
 			Scanner doesit = new Scanner(reader);
@@ -48,7 +49,7 @@ public class ScoreTrakker {
 
     private void printInOrder() {
     	System.out.println("Student Score List:");
-    	// refrenced https://www.youtube.com/watch?v=rH0winlka8A
+    	// Eva referenced https://www.youtube.com/watch?v=rH0winlka8A
     	// and https://www.geeksforgeeks.org/collections-in-java-2/
 //        Collections.sort(students);
         Collections.sort(students);
