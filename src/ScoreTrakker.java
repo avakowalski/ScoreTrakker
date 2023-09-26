@@ -1,3 +1,12 @@
+//Ava Kowalski 
+//Eva Christianson
+//Section C
+//I, Ava Kowalski, certify that I participated equitably in the creation of assignment C10A, dated 09-26-23.
+//I, Eva Christianson, certify that I participated equitably in the creation of this assignment C10A, dated 09-26-23.
+// RESOURCES: Ava went to office hours with Kathleen Kelly to help move the code from my partners computer to mine, Calire Kintzley helped me structure my 
+//process files function on line 58. TA Michael helped us debug our load filedata file method on line 22. 
+
+
 import java.util.Scanner;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -10,7 +19,7 @@ public class ScoreTrakker {
     //added new array to hold files 
     private String[] files = {"scores.txt", "badscore.txt"," nofile.txt"};
 
-  
+  //Michael helped us debug this 
     private void loadDataFile(String fileName) throws FileNotFoundException {
 		// !! Avas comment: The different way sadly had to be changed in part 2 
     		//students.clear();
@@ -48,7 +57,7 @@ public class ScoreTrakker {
         }
         System.out.println();
     }
-
+//Claire Kintzley heled me strutcure this function, because i was conceptually confused
     private void processFiles(){
     	for (String i: files) {
         	try {
